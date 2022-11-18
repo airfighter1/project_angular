@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+.head{
+    display: flex;
+    flex-direction: column;
+    color:#425a8b;
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+}
+#clr:hover{
+    color: #fd7e14;
+}
+
+.navwrapper1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.nav1st{
+    align-items: center;
+    display: flex;
+    gap: 9px;
+    justify-content: center;
+}
+
+.nav2nd{
+    display: flex;
+}
+
+.nav2nd span {
+    color: #5bc694;
+    font-size: 20px;
+}
+
+.nav3rd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.nav3rd span{
+    color: #5bc694;
+
+}
+
+
+/* wrapper2 */
+.navwrapper2{
+    display: flex;
+    color:#425a8b;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 50px;
+}
+.navlogosearch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+
+
+
+/* #searcbar {
+    min-height:190px; 
+    overflow-y :auto; 
+    overflow-x:hidden; 
+    position:absolute;
+    width:300px;
+    display: contents;
+ } */
+
+
+ .navoptions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+ }
+
+ .navcontact{
+    display: flex;
+
+ }
+ #bxhvr:hover{
+    background-color:#e3eaf9;
+ }
+
+#home {
+    border: 0px;
+ }
+ #shop{
+    border: 0px;
+ }
+ #vendors{
+    border: 0px;
+ }
+ #pages{
+    border: 0px;
+ }
+ #blog{
+    border: 0px;
+ }
+
+ /* featured products */
+
+.prdtsctn1{
+    font-family: 'DM Sans', sans-serif;
+}
+
+#para{
+    color:#8C9EC5
+}
+.main{
+    font-size: 20px;
+    color: #264998;
+}
+
+.product{
+    display: flex;
+    padding-left: 152px;
+    padding-right: 152px;
+    gap: 10px;
+}
+.boxlrg{
+    display: flex;
+    gap: 4px;
+    border: 1px solid #D5DFE4;
+    border-radius: 4px;
+    display: flex;
+    padding: 15px;
+}
+.boxlrg:hover{
+    border: 1px solid #264998 ;
+}
+.boxsml{
+    display: flex;
+    gap: 4px;
+    border: 1px solid #D5DFE4;
+    border-radius: 4px;
+    display: flex;
+    padding: 15px;
+    height: 81px;
+}
+.boxsml:hover{
+    border: 1px solid #264998 ;
+}
